@@ -1,2 +1,2 @@
-# meo-dev-training-1
-View page at: http://info.lecatox.tech/meo-dev-training-1/
+# meo-dev-training-2
+View page at: http://info.lecatox.tech/meo-dev-training-2/
