@@ -75,6 +75,13 @@ footer {
     width: 100%;
     color: white;
     background-color: black;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+footer .lang {
+  padding-right: 3vw;
+  padding-top: 5vh;
 }
 footer h2 {
     font-family: 'Raleway';
