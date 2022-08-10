@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+body {
+    background: linear-gradient(347.95deg, #51B9F3 0%, #2A6F96 100%);
+    box-sizing: border-box;
+    margin: 0;
+}
+nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav i {
+    display: none;
+}
+nav h1 {
+    padding-left: 3vw;
+    font-family: 'Pacifico';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 63px;
+    color: #FFFFFF;
+}
+nav ul {
+    padding-right: 10vh;
+    float: right;
+}
+nav ul li {
+    font-family: Raleway;
+    color: #FFFFFF;
+    font-size: 24px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.wallpaper img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+.blog>h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-left: 3vw;
+}
+.card {
+    padding-left: 3vw;
+    display: inline-block;
+}
+.card h2 {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+.card p {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 700;
+}
+footer {
+    height: 15vh;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+footer h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-left: 3vw;
+    padding-top: 3vh;
+}
+footer i {
+    padding-left: 3vw;
+}
+.card img {
+    width: 344px;
+    height: 239px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+  nav ul {
+    display: none;
+  }
+  nav h1 {
+    font-size: 24px;
+  }
+  nav {
+    justify-content: left;
+  }
+  nav i {
+    display: flex;
+    padding-left: 3vw;
+  }
+  .card img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+  nav h1 {
+    font-size: 24px;
+  }
+  nav {
+    justify-content: left;
+  }
+  nav i {
+    display: flex;
+    padding-left: 3vw;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+  and (min-width: 1224px) {
+  /* Styles */
+}
